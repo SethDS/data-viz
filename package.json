@@ -21,5 +21,22 @@
   "bugs": {
     "url": "https://github.com/SethDS/data-viz/issues"
   },
-  "homepage": "https://github.com/SethDS/data-viz#readme"
+  "homepage": "https://github.com/SethDS/data-viz#readme",
+  "devDependencies": {
+    "angular": "^1.6.9",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "body-parser": "^1.18.2",
+    "es6": "0.0.7",
+    "express": "^4.16.2",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1",
+    "gulp-cachebust": "0.0.9",
+    "gulp-concat": "^2.6.1",
+    "gulp-print": "^5.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "massive": "^4.6.5",
+    "nodemon": "^1.15.0"
+  }
 }
