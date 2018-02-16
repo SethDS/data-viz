@@ -1,0 +1,25 @@
+{
+  "name": "data-viz",
+  "version": "1.0.0",
+  "description": "DataViz brings you the ability to create a data-backed story visually, fast. Plug in your data, personalize easily, save and tell your story.",
+  "main": "\u001b[D\u001b[D\u001b[D(server/\u001b[2~server.js)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SethDS/data-viz.git"
+  },
+  "keywords": [
+    "data",
+    "visualization",
+    "business",
+    "productivity"
+  ],
+  "author": "Seth David Sutherland",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SethDS/data-viz/issues"
+  },
+  "homepage": "https://github.com/SethDS/data-viz#readme"
+}
