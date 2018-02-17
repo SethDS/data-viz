@@ -21,7 +21,6 @@ const paths = {
 gulp.task('build-js', () => {
     gulp.src(paths.app_JS)
     .pipe(sourcemaps.init())
-    .pipe(print())
     .pipe(babel({ presets: ['es2015'] }))
     .pipe(concat('bundle.js'))
     .pipe(sourcemaps.write('./maps'))
@@ -60,6 +59,7 @@ gulp.watch(paths.app_CSS, ['build-css']);
 gulp.watch(paths.app_HTML, ['build-html']);
 // gulp.watch(paths.images, ['copy-images']);
 // gulp.watch(path.app_FONTS, ['build-fonts']);
+console.log("Watching...");
 });
 
 gulp.task('default', [
